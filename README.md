@@ -8,8 +8,8 @@
 
 ### An autonomous AI staff of world-class mentors — for one human
 
-[![Skills](https://img.shields.io/badge/specialist_skills-32-brightgreen?style=flat-square)](#whats-inside--32-specialist-agents)
-[![Domains](https://img.shields.io/badge/learning_domains-34%2B-blueviolet?style=flat-square)](#learning-domains)
+[![Skills](https://img.shields.io/badge/specialist_skills-33-brightgreen?style=flat-square)](#whats-inside--33-specialist-agents)
+[![Domains](https://img.shields.io/badge/learning_domains-41%2B-blueviolet?style=flat-square)](#learning-domains)
 [![Pillars](https://img.shields.io/badge/daily_pillars-3-orange?style=flat-square)](#the-three-daily-pillars)
 [![Docs](https://img.shields.io/badge/docs-8-blue?style=flat-square)](#docs)
 [![Levels](https://img.shields.io/badge/level_system-L0→L10-9cf?style=flat-square)](#metrics--progression)
@@ -20,7 +20,7 @@
 [![GitHub forks](https://img.shields.io/github/forks/idvhridoy/super-human?style=flat-square)](https://github.com/idvhridoy/super-human/network/members)
 [![Last Commit](https://img.shields.io/github/last-commit/idvhridoy/super-human?style=flat-square)](https://github.com/idvhridoy/super-human/commits/main)
 
-**32 specialist agents · 3 daily pillars · 34 learning domains · 24/7 file-based memory · L0→L10 progression**
+**33 specialist agents · 3 daily pillars · 41 learning domains · 24/7 file-based memory · L0→L10 progression**
 
 [Quick Start](#quick-start) · [The Three Pillars](#the-three-daily-pillars) · [Domains](#learning-domains) · [How It Runs](#how-it-runs) · [Safety](#safety-guardrails) · [Docs](#docs)
 
@@ -64,24 +64,24 @@ Everything else routes itself: `/orchestrator` reads `## NEXT:` markers and disp
 
 ## Learning domains
 
-34 seeded domains, each with a full **L0→L10 curriculum**, 30/60/90-day roadmap, session log, progress tracker, metrics, playbook, and leveled resources. New domains are added by copying `domains/TEMPLATE/` — `interest-scout` proposes them from curiosity signals, humans approve.
+41 seeded domains, each with a full **L0→L10 curriculum**, 30/60/90-day roadmap, session log, progress tracker, metrics, playbook, and leveled resources. New domains are added by copying `domains/TEMPLATE/` — `interest-scout` proposes them from curiosity signals, humans approve.
 
 | Category | Domains |
 |---|---|
 | **Physical** | Running · Swimming · Strength & Plyometrics · Kung-Fu · Mobility & Recovery · Driving *(theory-only until legal age)* |
 | **Sciences** | Mathematics *(foundational — gates physics/engineering)* · Physics · Chemistry · Biology |
-| **World** | Geography · Geopolitics · History · General Law |
-| **Mind** | Brain Training · Strategy & Decisions · Psychology · Philosophy · Mindfulness |
-| **Expression** | Language · Literature · Drawing · Music · Communication *(public speaking/debate/negotiation)* · Behavior & Etiquette |
-| **Practical** | Coding · Digital Literacy · Finance · First Aid · Cooking · Agriculture · Engineering & Making · Survival · Life Skills · *+ any elective you add* |
+| **World** | Geography · Geopolitics · History · General Law · Situational Mastery *(read & handle any situation smoothly)* |
+| **Mind** | Brain Training · Mind Hacks · Critical Thinking · Creativity · Strategy & Decisions · Psychology · Philosophy · Mindfulness |
+| **Expression** | Language · Literature · Drawing · Music · Communication *(public speaking/debate/negotiation)* · Behavior & Etiquette · Leadership · Teaching |
+| **Practical** | Technology · Coding · Digital Literacy · Finance · First Aid · Cooking · Agriculture · Engineering & Making · Survival · Life Skills · *+ any elective you add* |
 
-## What's inside — 32 specialist agents
+## What's inside — 33 specialist agents
 
 | Function | Agents | Key capabilities |
 |---|---|---|
 | **Orchestration** | 5 | `orchestrator` routing · learner onboarding · morning plans · evening audits · Friday retros |
 | **Pillars** | 5 | Nutrition · sleep coaching · night watch · training periodization · safety veto power |
-| **Coaches & mentors** | 10 | Dedicated coaches (run/swim/strength/kung-fu/driving/first-aid/communication/mindfulness) + `domain-mentor` engine + `project-mentor` cross-domain capstones |
+| **Coaches & mentors** | 11 | Dedicated coaches (run/swim/strength/kung-fu/driving/first-aid/communication/mindfulness/scenario) + `domain-mentor` engine + `project-mentor` cross-domain capstones |
 | **Mind & growth** | 3 | `mindset-coach` discipline/habits · `learning-coach` meta-learning · `career-mentor` profession paths |
 | **Intelligence** | 7 | Testing & level promotion · badges · KPI reports · interest detection · roadmaps · strategy · resource curation |
 | **Operations** | 2 | Activity logging · calendar/conflict authority |

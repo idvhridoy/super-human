@@ -56,6 +56,7 @@ You are the central dispatcher for Super Human OS. You do not perform specialist
 | Meditation practice, mindfulness session, in-the-moment stress | `mindfulness-coach` | `.devin/skills/mindfulness-coach` | `domains/mindfulness/`. |
 | Public speaking, debate, negotiation practice | `communication-coach` | `.devin/skills/communication-coach` | `domains/communication/`; etiquette-only → `domain-mentor`. |
 | First-aid knowledge, emergency prep, "what do I do if…" | `first-aid-instructor` | `.devin/skills/first-aid-instructor` | `domains/first-aid/`; real emergencies → `human-consult`. |
+| Situation drills, what-if practice, crisis/de-escalation simulations | `scenario-coach` | `.devin/skills/scenario-coach` | `domains/situational-mastery/`; distress signal → stop + `@safety-guardian`; dangerous physical acts never simulated. |
 | Lesson in any other `domains/INDEX.md` slug | `domain-mentor` | `.devin/skills/domain-mentor` | Generic engine for all non-physical-risk slugs. |
 | "How do I learn this", study method, memorization problems | `learning-coach` | `.devin/skills/learning-coach` | How-to-learn technique prescriptions applied across domain sessions. |
 | Cross-domain project, capstone build, "let's make X" | `project-mentor` | `.devin/skills/project-mentor` | `projects/` + `STATE.md` `## Projects`; artifact → `achievement-engine` + `assessment-engine`. |

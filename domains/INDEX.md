@@ -38,5 +38,12 @@ Every learning domain. Levels: L0 (unstarted) → L10 (mastery). Status: active 
 | Music | music | expression | L0 | 0 | 0 | queued | rhythm & listening |
 | Communication | communication | expression | L0 | 0 | 0 | queued | clear speech basics |
 | Mindfulness | mindfulness | mind | L0 | 0 | 0 | queued | breath awareness |
+| Technology | technology | practical | L0 | 0 | 0 | queued | how tech works basics |
+| Mind Hacks | mind-hacks | mind | L0 | 0 | 0 | queued | calm-under-pressure protocol |
+| Critical Thinking | critical-thinking | mind | L0 | 0 | 0 | queued | argument structure |
+| Situational Mastery | situational-mastery | world | L0 | 0 | 0 | queued | observe-orient basics |
+| Leadership | leadership | expression | L0 | 0 | 0 | queued | character foundations |
+| Creativity | creativity | mind | L0 | 0 | 0 | queued | divergent drills |
+| Teaching | teaching | expression | L0 | 0 | 0 | queued | explain-it-back |
 
 New domains: copy `domains/TEMPLATE/` → `domains/<slug>/`, then follow `routine/checklists/lifecycle.md`. Proposed by `@interest-scout`, approved by human.
