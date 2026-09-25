@@ -34,7 +34,7 @@
 
 A billionaire's child gets a running coach, a swim instructor, a nutritionist planning every meal, a sleep consultant guarding every night, and a private tutor for every subject — plus a chief of staff scheduling it all. **Super Human OS gives one learner that entire staff as AI agents.**
 
-It is not a chatbot that gives advice. It is an **operating system for building a super human**: planned days, coached sessions, logged progress, enforced recovery, leveled skills across 48 domains, and a permanent record of the entire journey. The human learner only executes and reports — the staff handles everything else, 24/7.
+It is not a chatbot that gives advice. It is an **operating system for building a super human**: planned days, coached sessions, logged progress, enforced recovery, leveled skills across 51 domains, and a permanent record of the entire journey. The human learner only executes and reports — the staff handles everything else, 24/7.
 
 ## 🏗️ 02 — Architecture
 
@@ -123,7 +123,7 @@ super-human/
 │   │                        # interests · assessments · career-exploration
 │   └── private.md           # gitignored
 ├── pillars/                 # nutrition/ · sleep/ · training/
-├── domains/                 # INDEX.md · TEMPLATE/ · 48 <slug>/ workspaces
+├── domains/                 # INDEX.md · TEMPLATE/ · 51 <slug>/ workspaces
 ├── routine/                 # checklists · daily/ · weekly/
 ├── reports/                 # weekly KPIs · monthly whole-person
 ├── achievements/            # badges & level-up records
