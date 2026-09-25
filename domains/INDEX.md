@@ -52,5 +52,8 @@ Every learning domain. Levels: L0 (unstarted) → L10 (mastery). Status: active 
 | Fact-Checking | fact-checking | mind | L0 | 0 | 0 | queued | claims vs facts |
 | Statecraft | statecraft | world | L0 | 0 | 0 | queued | what rulers do |
 | Purpose | purpose | mind | L0 | 0 | 0 | queued | values inventory |
+| Health Literacy | health-literacy | practical | L0 | 0 | 0 | queued | know your body systems |
+| Team Sports | team-sports | physical | L0 | 0 | 0 | queued | rules & roles basics |
+| Astronomy | astronomy | sciences | L0 | 0 | 0 | queued | naked-eye constellations |
 
 New domains: copy `domains/TEMPLATE/` → `domains/<slug>/`, then follow `routine/checklists/lifecycle.md`. Proposed by `@interest-scout`, approved by human.
