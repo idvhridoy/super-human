@@ -1,0 +1,7 @@
+# Secrets & private data — NEVER commit
+learner/private.md
+.env
+.env.*
+*.key
+*.pem
+.DS_Store
