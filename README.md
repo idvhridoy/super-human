@@ -9,7 +9,7 @@
 ### An autonomous AI staff of world-class mentors — for one human
 
 [![Specialists](https://img.shields.io/badge/specialist_agents-33-brightgreen?style=flat-square)](#-05--33-specialist-agents)
-[![Domains](https://img.shields.io/badge/learning_domains-51%2B-blueviolet?style=flat-square)](#-04--51-learning-domains)
+[![Domains](https://img.shields.io/badge/learning_domains-53%2B-blueviolet?style=flat-square)](#-04--53-learning-domains)
 [![Pillars](https://img.shields.io/badge/daily_pillars-3-orange?style=flat-square)](#-03--the-three-daily-pillars)
 [![Levels](https://img.shields.io/badge/progression-L0→L10-9cf?style=flat-square)](#-07--progression-system)
 [![State](https://img.shields.io/badge/state-100%25%20markdown-ff6600?style=flat-square)](#-09--file-based-state)
@@ -20,9 +20,9 @@
 [![GitHub forks](https://img.shields.io/github/forks/idvhridoy/super-human?style=flat-square)](https://github.com/idvhridoy/super-human/network/members)
 [![Last Commit](https://img.shields.io/github/last-commit/idvhridoy/super-human?style=flat-square)](https://github.com/idvhridoy/super-human/commits/main)
 
-**33 specialist agents · 3 daily pillars · 51 learning domains · 24/7 file-based memory · L0→L10 progression**
+**33 specialist agents · 3 daily pillars · 53 learning domains · 24/7 file-based memory · L0→L10 progression**
 
-[01 Vision](#-01--the-vision) · [02 Architecture](#-02--architecture) · [03 Pillars](#-03--the-three-daily-pillars) · [04 Domains](#-04--51-learning-domains) · [05 Agents](#-05--33-specialist-agents) · [06 Orchestration](#-06--orchestration--handover) · [07 Progression](#-07--progression-system) · [08 Rhythm](#-08--operating-rhythm) · [09 State](#-09--file-based-state) · [10 Docs](#-10--documentation--quick-start)
+[01 Vision](#-01--the-vision) · [02 Architecture](#-02--architecture) · [03 Pillars](#-03--the-three-daily-pillars) · [04 Domains](#-04--53-learning-domains) · [05 Agents](#-05--33-specialist-agents) · [06 Orchestration](#-06--orchestration--handover) · [07 Progression](#-07--progression-system) · [08 Rhythm](#-08--operating-rhythm) · [09 State](#-09--file-based-state) · [10 Docs](#-10--documentation--quick-start)
 
 </div>
 
@@ -34,7 +34,9 @@
 
 A billionaire's child gets a running coach, a swim instructor, a nutritionist planning every meal, a sleep consultant guarding every night, and a private tutor for every subject — plus a chief of staff scheduling it all. **Super Human OS gives one learner that entire staff as AI agents.**
 
-It is not a chatbot that gives advice. It is an **operating system for building a super human**: planned days, coached sessions, logged progress, enforced recovery, leveled skills across 51 domains, and a permanent record of the entire journey. The human learner only executes and reports — the staff handles everything else, 24/7.
+It is not a chatbot that gives advice. It is an **operating system for building a super human**: planned days, coached sessions, logged progress, enforced recovery, leveled skills across 53 domains, and a permanent record of the entire journey. The human learner only executes and reports — the staff handles everything else, 24/7.
+
+Two flagship tracks sit above the rest: **Body Engineering** — audit the human machine (resting HR, VO2max, lipids, composition), then rebuild it on proven science (zone-2 base, progressive overload, combined aerobic+resistance, commando-grade endurance benchmarks as far targets) — and **Brain Engineering** — audit the mind (reaction, working memory, stress profile), then rebuild it (exercise→BDNF scheduling, dual-n-back, military-validated Stress Inoculation Training) until the best reaction is the default reaction.
 
 ## 🏗️ 02 — Architecture
 
@@ -56,16 +58,18 @@ The non-negotiable subsystems everything else is scheduled around:
 | **Train** | `training-coordinator` + physical coaches | `pillars/training/` | Periodized weekly splits across physical domains, enforced recovery floors, age-appropriate load caps |
 | **Sleep** | `sleep-coach` + `sleep-guardian` | `pillars/sleep/` | Age-appropriate sleep window, wind-down routine, night-watch reports, sleep-debt alerts that downgrade training |
 
-## 📚 04 — 51 Learning Domains
+## 📚 04 — 53 Learning Domains
 
 Each domain is a full workspace: **L0→L10 curriculum · 30/60/90 roadmap · sessions log · progress tracker · metrics · playbook · leveled resources**. New domains spawn from `domains/TEMPLATE/` — `interest-scout` proposes, humans approve.
 
+🏆 **Flagship domains:** `body-engineering` + `brain-engineering` — the assess→engineer→exceed pipelines for the human machine, built on exercise-physiology and cognitive-science research.
+
 | Category | Domains |
 |---|---|
-| **Physical** (7) | Running · Swimming · Strength & Plyometrics · Kung-Fu · Mobility & Recovery · Team Sports · Driving *(theory-only until legal age)* |
+| **Physical** (8) | 🏆 **Body Engineering** *(audit → zone-2 base → VO2max → rucking → commando standards)* · Running · Swimming · Strength & Plyometrics · Kung-Fu · Mobility & Recovery · Team Sports · Driving *(theory-only until legal age)* |
 | **Sciences** (5) | Mathematics *(foundational — gates physics/engineering)* · Physics · Chemistry · Biology · Astronomy |
 | **World** (6) | Geography · Geopolitics · History · General Law · Statecraft *(the smart ruler)* · Situational Mastery *(read & handle any situation smoothly)* |
-| **Mind** (12) | Brain Training · Mind Hacks · Critical Thinking · Judgment *(the judge — evidence only)* · Observation *(360° awareness)* · Fact-Checking *(misinformation defense)* · Creativity · Strategy & Decisions · Psychology · Philosophy · Mindfulness · Purpose *(ikigai)* |
+| **Mind** (13) | 🏆 **Brain Engineering** *(cognitive audit → BDNF/sleep levers → stress inoculation → best-reaction training)* · Brain Training · Mind Hacks · Critical Thinking · Judgment *(the judge — evidence only)* · Observation *(360° awareness)* · Fact-Checking *(misinformation defense)* · Creativity · Strategy & Decisions · Psychology · Philosophy · Mindfulness · Purpose *(ikigai)* |
 | **Expression** (8) | Language · Literature · Drawing · Music · Communication *(speaking/debate/negotiation)* · Behavior & Etiquette · Leadership · Teaching |
 | **Practical** (13) | Technology · Coding · Digital Literacy · Finance · Health Literacy · First Aid · Cooking · Agriculture · Engineering & Making · OSINT *(ethical public-source intel)* · Troubleshooting *(reproduce→isolate→fix)* · Survival · Life Skills |
 
@@ -123,7 +127,7 @@ super-human/
 │   │                        # interests · assessments · career-exploration
 │   └── private.md           # gitignored
 ├── pillars/                 # nutrition/ · sleep/ · training/
-├── domains/                 # INDEX.md · TEMPLATE/ · 51 <slug>/ workspaces
+├── domains/                 # INDEX.md · TEMPLATE/ · 53 <slug>/ workspaces
 ├── routine/                 # checklists · daily/ · weekly/
 ├── reports/                 # weekly KPIs · monthly whole-person
 ├── achievements/            # badges & level-up records

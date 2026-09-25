@@ -55,5 +55,7 @@ Every learning domain. Levels: L0 (unstarted) → L10 (mastery). Status: active 
 | Health Literacy | health-literacy | practical | L0 | 0 | 0 | queued | know your body systems |
 | Team Sports | team-sports | physical | L0 | 0 | 0 | queued | rules & roles basics |
 | Astronomy | astronomy | sciences | L0 | 0 | 0 | queued | naked-eye constellations |
+| Body Engineering | body-engineering | physical (flagship) | L0 | 0 | 0 | queued | complete body audit |
+| Brain Engineering | brain-engineering | mind (flagship) | L0 | 0 | 0 | queued | complete cognitive audit |
 
 New domains: copy `domains/TEMPLATE/` → `domains/<slug>/`, then follow `routine/checklists/lifecycle.md`. Proposed by `@interest-scout`, approved by human.
