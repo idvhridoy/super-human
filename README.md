@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/banner.png" alt="Super Human OS" width="100%">
+  <img src="assets/banner.jpg" alt="Super Human OS" width="100%">
 </p>
 
 <div align="center">
@@ -9,7 +9,7 @@
 ### An autonomous AI staff of world-class mentors — for one human
 
 [![Skills](https://img.shields.io/badge/specialist_skills-33-brightgreen?style=flat-square)](#whats-inside--33-specialist-agents)
-[![Domains](https://img.shields.io/badge/learning_domains-41%2B-blueviolet?style=flat-square)](#learning-domains)
+[![Domains](https://img.shields.io/badge/learning_domains-48%2B-blueviolet?style=flat-square)](#learning-domains)
 [![Pillars](https://img.shields.io/badge/daily_pillars-3-orange?style=flat-square)](#the-three-daily-pillars)
 [![Docs](https://img.shields.io/badge/docs-8-blue?style=flat-square)](#docs)
 [![Levels](https://img.shields.io/badge/level_system-L0→L10-9cf?style=flat-square)](#metrics--progression)
@@ -20,7 +20,7 @@
 [![GitHub forks](https://img.shields.io/github/forks/idvhridoy/super-human?style=flat-square)](https://github.com/idvhridoy/super-human/network/members)
 [![Last Commit](https://img.shields.io/github/last-commit/idvhridoy/super-human?style=flat-square)](https://github.com/idvhridoy/super-human/commits/main)
 
-**33 specialist agents · 3 daily pillars · 41 learning domains · 24/7 file-based memory · L0→L10 progression**
+**33 specialist agents · 3 daily pillars · 48 learning domains · 24/7 file-based memory · L0→L10 progression**
 
 [Quick Start](#quick-start) · [The Three Pillars](#the-three-daily-pillars) · [Domains](#learning-domains) · [How It Runs](#how-it-runs) · [Safety](#safety-guardrails) · [Docs](#docs)
 
@@ -64,16 +64,16 @@ Everything else routes itself: `/orchestrator` reads `## NEXT:` markers and disp
 
 ## Learning domains
 
-41 seeded domains, each with a full **L0→L10 curriculum**, 30/60/90-day roadmap, session log, progress tracker, metrics, playbook, and leveled resources. New domains are added by copying `domains/TEMPLATE/` — `interest-scout` proposes them from curiosity signals, humans approve.
+48 seeded domains, each with a full **L0→L10 curriculum**, 30/60/90-day roadmap, session log, progress tracker, metrics, playbook, and leveled resources. New domains are added by copying `domains/TEMPLATE/` — `interest-scout` proposes them from curiosity signals, humans approve.
 
 | Category | Domains |
 |---|---|
 | **Physical** | Running · Swimming · Strength & Plyometrics · Kung-Fu · Mobility & Recovery · Driving *(theory-only until legal age)* |
 | **Sciences** | Mathematics *(foundational — gates physics/engineering)* · Physics · Chemistry · Biology |
-| **World** | Geography · Geopolitics · History · General Law · Situational Mastery *(read & handle any situation smoothly)* |
-| **Mind** | Brain Training · Mind Hacks · Critical Thinking · Creativity · Strategy & Decisions · Psychology · Philosophy · Mindfulness |
+| **World** | Geography · Geopolitics · History · General Law · Statecraft *(the smart ruler)* · Situational Mastery *(read & handle any situation smoothly)* |
+| **Mind** | Brain Training · Mind Hacks · Critical Thinking · Judgment *(the judge — evidence/facts only)* · Observation *(360° awareness)* · Fact-Checking *(misinformation defense)* · Creativity · Strategy & Decisions · Psychology · Philosophy · Mindfulness · Purpose *(ikigai)* |
 | **Expression** | Language · Literature · Drawing · Music · Communication *(public speaking/debate/negotiation)* · Behavior & Etiquette · Leadership · Teaching |
-| **Practical** | Technology · Coding · Digital Literacy · Finance · First Aid · Cooking · Agriculture · Engineering & Making · Survival · Life Skills · *+ any elective you add* |
+| **Practical** | Technology · Coding · Digital Literacy · Finance · First Aid · Cooking · Agriculture · Engineering & Making · OSINT *(the #1 spy — ethical public-source intel)* · Troubleshooting *(reproduce → isolate → fix)* · Survival · Life Skills · *+ any elective you add* |
 
 ## What's inside — 33 specialist agents
 

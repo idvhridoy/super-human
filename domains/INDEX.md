@@ -45,5 +45,12 @@ Every learning domain. Levels: L0 (unstarted) → L10 (mastery). Status: active 
 | Leadership | leadership | expression | L0 | 0 | 0 | queued | character foundations |
 | Creativity | creativity | mind | L0 | 0 | 0 | queued | divergent drills |
 | Teaching | teaching | expression | L0 | 0 | 0 | queued | explain-it-back |
+| Judgment | judgment | mind | L0 | 0 | 0 | queued | evidence standards |
+| Observation | observation | mind | L0 | 0 | 0 | queued | noticing drills |
+| OSINT | osint | practical (ethics-gated) | L0 | 0 | 0 | queued | public-source research |
+| Troubleshooting | troubleshooting | practical | L0 | 0 | 0 | queued | reproduce the fault |
+| Fact-Checking | fact-checking | mind | L0 | 0 | 0 | queued | claims vs facts |
+| Statecraft | statecraft | world | L0 | 0 | 0 | queued | what rulers do |
+| Purpose | purpose | mind | L0 | 0 | 0 | queued | values inventory |
 
 New domains: copy `domains/TEMPLATE/` → `domains/<slug>/`, then follow `routine/checklists/lifecycle.md`. Proposed by `@interest-scout`, approved by human.
