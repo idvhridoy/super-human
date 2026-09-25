@@ -1,0 +1,23 @@
+BANNER IMAGE PROMPT (paste into ChatGPT / DALL·E)
+=================================================
+
+Create a wide GitHub README banner (1792x1024, landscape) for a project called
+"Super Human OS" — an autonomous AI mentorship system that develops one human
+learner across body, mind, and knowledge with specialist AI coaches.
+
+Style: premium dark-tech banner. Deep midnight-blue/charcoal gradient background
+(#0A0F1E -> #111827) with a subtle constellation grid. Center-left: bold modern
+sans-serif title "SUPER HUMAN OS" in white with the word "HUMAN" in a
+gold->cyan gradient. Subtitle below in light gray:
+"Eat · Train · Sleep · Learn — Orchestrated by AI Specialists".
+
+Right side: a heroic human silhouette in a Vitruvian-like pose at the center of
+concentric glowing rings, each ring carrying small icons — a brain, a dumbbell,
+a book, a moon (sleep), a meal icon, a heart, a graduation cap. Thin neon lines
+connect the rings to small orbiting "agent" nodes. Colors: cyan #22D3EE,
+gold #F59E0B, violet #8B5CF6 accents on dark.
+
+Thin neon underline across the bottom. Clean, minimal, professional — no
+clutter, no watermarks, no lorem ipsum. Premium open-source hero-image look.
+
+Save the generated image as: assets/banner.png
