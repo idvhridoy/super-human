@@ -38,6 +38,7 @@ Intent → owning skill → primary write targets. When in doubt: `@orchestrator
 | "How am I doing", KPIs, weekly/monthly report | `progress-report` | `reports/weekly/YYYY-Www.md`, `reports/monthly/YYYY-MM.md` |
 | Curiosity signal, "new domain?", elective proposal | `interest-scout` | `learner/interests.md`, `domains/INDEX.md` proposed row |
 | Pain, injury, overtraining, sleep debt, age violation, veto | `safety-guardian` | `STATE.md` Safety Flags, `## VETO` appends |
+| Motivation slump, habit friction, discipline, resilience | `mindset-coach` | `learner/mindset.md`; burnout signals → `safety-guardian` |
 | Book/video/exercise recommendation, resource curation | `knowledge-librarian` | `library/`, `domains/<slug>/resources.md` |
 | Meal plan, macros, hydration, food log | `nutritionist` | `pillars/nutrition/*` |
 | Sleep schedule, wind-down, hygiene | `sleep-coach` | `pillars/sleep/routine.md`, `playbook.md`, `metrics.md` (merge) |
@@ -48,8 +49,14 @@ Intent → owning skill → primary write targets. When in doubt: `@orchestrator
 | Strength/plyometric session | `strength-coach` | `domains/strength/`, `pillars/training/sessions.md` append |
 | Martial arts session | `kungfu-coach` | `domains/kung-fu/`, `pillars/training/sessions.md` append |
 | Driving theory; gated practical | `driving-mentor` | `domains/driving/` |
+| Meditation practice, mindfulness session, in-the-moment stress | `mindfulness-coach` | `domains/mindfulness/` |
+| Public speaking, debate, negotiation practice | `communication-coach` | `domains/communication/` |
+| First-aid knowledge, emergency prep, drill checklists | `first-aid-instructor` | `domains/first-aid/` (incl. `emergency-card.md`) |
 | Lesson in any non-physical domain (language, physics, law, …) | `domain-mentor` | `domains/<slug>/*` for its slug |
+| "How do I learn this", study method, memorization problems | `learning-coach` | `learner/learning-strategies.md`, `domains/<slug>/playbook.md` method appends (merge) |
+| Cross-domain project, capstone build, "let's make X" | `project-mentor` | `projects/<slug>.md`, `STATE.md` `## Projects` section |
 | "What should I prioritize", quarter/year strategy | `strategy-advisor` | `learner/goals.md` priority section, `INDEX.md` ordering |
+| "What should I become", profession paths, future direction | `career-mentor` | `learner/career-exploration.md`, `LOG.md` |
 | Friday retro, sprint close, next-week adjustments | `weekly-review` | `routine/weekly/YYYY-Www.md` |
 | Approval needed, gate question, medical/legal/transaction | `human-consult` (halt) | question in scope file + `STATE.md` HUMAN queue |
 

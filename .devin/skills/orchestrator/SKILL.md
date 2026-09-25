@@ -40,18 +40,25 @@ You are the central dispatcher for Super Human OS. You do not perform specialist
 | Calendar clash, commitments, "reschedule" | `schedule-manager` | `.devin/skills/schedule-manager` | Owns `learner/schedule.md`; resolves slot conflicts. |
 | 30/60/90-day plans, seasonal roadmaps | `roadmap-planner` | `.devin/skills/roadmap-planner` | `domains/<slug>/roadmap.md`, `domains/INDEX.md`. |
 | "What should I prioritize", quarter/year strategy | `strategy-advisor` | `.devin/skills/strategy-advisor` | `learner/goals.md` priority section, INDEX ordering. |
+| "What should I become", profession paths, future direction | `career-mentor` | `.devin/skills/career-mentor` | `learner/career-exploration.md`; syncs quarterly direction with `strategy-advisor`. |
 | Meal plan, macros, hydration, food log | `nutritionist` | `.devin/skills/nutritionist` | Owns `pillars/nutrition/*`. |
 | Sleep schedule, wind-down, hygiene | `sleep-coach` | `.devin/skills/sleep-coach` | `pillars/sleep/routine.md`, `playbook.md`. |
 | Bedtime/wake watch, night quality report | `sleep-guardian` | `.devin/skills/sleep-guardian` | `pillars/sleep/night-log.md`, `metrics.md`. |
 | Weekly training structure, periodization, load | `training-coordinator` | `.devin/skills/training-coordinator` | `pillars/training/*`, `domains/mobility/`. |
 | Pain, injury, overtraining, sleep debt, age violation | `safety-guardian` | `.devin/skills/safety-guardian` | `STATE.md` Safety Flags, `## VETO` appends. Runs pre/post any physical session. |
+| Motivation slump, habit friction, discipline, resilience | `mindset-coach` | `.devin/skills/mindset-coach` | Mindset/habit work; burnout signals escalate to `@safety-guardian`. |
 | Test, quiz, "evaluate me", level check | `assessment-engine` | `.devin/skills/assessment-engine` | `learner/assessments.md`, `progress.md` levels. |
 | Running session, run technique, run plan | `run-coach` | `.devin/skills/run-coach` | `domains/running/` + `pillars/training/sessions.md` append. |
 | Swim session, water skills | `swim-coach` | `.devin/skills/swim-coach` | `domains/swimming/` + training sessions append. |
 | Strength/plyometric session | `strength-coach` | `.devin/skills/strength-coach` | `domains/strength/` + training sessions append. |
 | Martial arts session | `kungfu-coach` | `.devin/skills/kungfu-coach` | `domains/kung-fu/` + training sessions append. |
 | Driving theory or gated practical | `driving-mentor` | `.devin/skills/driving-mentor` | `domains/driving/`; theory-only until legal age + licensed human supervisor. |
+| Meditation practice, mindfulness session, in-the-moment stress | `mindfulness-coach` | `.devin/skills/mindfulness-coach` | `domains/mindfulness/`. |
+| Public speaking, debate, negotiation practice | `communication-coach` | `.devin/skills/communication-coach` | `domains/communication/`; etiquette-only → `domain-mentor`. |
+| First-aid knowledge, emergency prep, "what do I do if…" | `first-aid-instructor` | `.devin/skills/first-aid-instructor` | `domains/first-aid/`; real emergencies → `human-consult`. |
 | Lesson in any other `domains/INDEX.md` slug | `domain-mentor` | `.devin/skills/domain-mentor` | Generic engine for all non-physical-risk slugs. |
+| "How do I learn this", study method, memorization problems | `learning-coach` | `.devin/skills/learning-coach` | How-to-learn technique prescriptions applied across domain sessions. |
+| Cross-domain project, capstone build, "let's make X" | `project-mentor` | `.devin/skills/project-mentor` | `projects/` + `STATE.md` `## Projects`; artifact → `achievement-engine` + `assessment-engine`. |
 | Badge, milestone, streak reward, level-up record | `achievement-engine` | `.devin/skills/achievement-engine` | `achievements/<id>.md`, counters, INDEX level column. |
 | "How am I doing", KPIs, weekly/monthly report | `progress-report` | `.devin/skills/progress-report` | `reports/weekly/`, `reports/monthly/`. |
 | Curiosity signal, elective, "new domain?" | `interest-scout` | `.devin/skills/interest-scout` | `learner/interests.md`, INDEX proposed rows. |
