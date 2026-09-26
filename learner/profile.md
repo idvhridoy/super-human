@@ -3,19 +3,19 @@
 > Filled by `/learner-profile` interview. TODO markers = gaps to fill.
 
 ## Identity
-- Name/nickname: TODO
-- Age: TODO
-- Mode: TODO (ward = guardian approves gates / adult = self-approves)
-- Location & timezone: TODO (default Asia/Dhaka, UTC+6)
+- Name/nickname: Hridoy
+- Age: Adult 18+
+- Mode: adult (self-approves all gates)
+- Location & timezone: Asia/Dhaka, UTC+6
 
 ## Baseline Stats
-- Height / weight: TODO
-- Current fitness baseline: TODO (e.g., can run X min, swim Y m)
-- Education level: TODO
-- Languages spoken: TODO
+- Height / weight: 5'5" (~165cm) / 80kg
+- Current fitness baseline: run ~1 min continuous; can swim; no current sport
+- Education level: M.Sc
+- Languages spoken: Bangla (native), English (fluent), Hindi
 
 ## Personality & Learning Style
-- TODO — how does the learner best absorb: visual / reading / doing / discussion?
+- Learns best by doing — hands-on practice first, theory second
 
 ## Constraints
 - Health: see `health.md` (human-approved only)

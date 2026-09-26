@@ -1,18 +1,23 @@
 # Schedule & Availability
 
 ## Fixed Commitments
-- TODO — school/work hours, prayers, family time (day + time blocks)
+- Work: ~10:00–18:30 weekdays (Master Sab / RBD)
+- Prayer blocks ×5 daily
+- Meals anchor the day — see `pillars/nutrition/meal-plan.md`
+- Personal + family time (evenings)
 
 ## Available Windows
-- Weekday mornings: TODO
-- Weekday afternoons: TODO
-- Weekday evenings: TODO
-- Weekends: TODO
+- Weekday mornings: ~05:30–09:30 (before work, after Fajr)
+- Weekday evenings: ~18:30–22:00 minus family/dinner block
+- Weekends: largely free except meals, shopping, family
+- Note: "weekday full time except eating/shopping/sleeping" per learner —
+  `daily-routine` fills confirmed windows; work block is the only hard fixture.
 
 ## Sleep Window (managed by @sleep-coach)
-- Target bedtime: TODO
-- Target wake: TODO
-- Minimum hours: TODO (age-dependent — never reduce below age minimum, see docs/REFERENCES.md)
+- Target bedtime: 22:00
+- Target wake: 08:00 (10h window — @sleep-coach may tune to 8–9h;
+  surplus = recovery buffer for training load)
+- Minimum hours: 8h (learner-set floor — above the 7h adult minimum)
 
 ## Hard Rules
 - No scheduled activity inside sleep window.
