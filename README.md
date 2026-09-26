@@ -8,7 +8,7 @@
 
 ### An autonomous AI staff of world-class mentors — for one human
 
-[![Specialists](https://img.shields.io/badge/specialist_agents-33-brightgreen?style=flat-square)](#-05--33-specialist-agents)
+[![Specialists](https://img.shields.io/badge/specialist_agents-34-brightgreen?style=flat-square)](#-05--34-specialist-agents)
 [![Domains](https://img.shields.io/badge/learning_domains-53%2B-blueviolet?style=flat-square)](#-04--53-learning-domains)
 [![Pillars](https://img.shields.io/badge/daily_pillars-3-orange?style=flat-square)](#-03--the-three-daily-pillars)
 [![Levels](https://img.shields.io/badge/progression-L0→L10-9cf?style=flat-square)](#-07--progression-system)
@@ -20,9 +20,9 @@
 [![GitHub forks](https://img.shields.io/github/forks/idvhridoy/super-human?style=flat-square)](https://github.com/idvhridoy/super-human/network/members)
 [![Last Commit](https://img.shields.io/github/last-commit/idvhridoy/super-human?style=flat-square)](https://github.com/idvhridoy/super-human/commits/main)
 
-**33 specialist agents · 3 daily pillars · 53 learning domains · 24/7 file-based memory · L0→L10 progression**
+**34 specialist agents · 3 daily pillars · 53 learning domains · 24/7 file-based memory · L0→L10 progression**
 
-[01 Vision](#-01--the-vision) · [02 Architecture](#-02--architecture) · [03 Pillars](#-03--the-three-daily-pillars) · [04 Domains](#-04--53-learning-domains) · [05 Agents](#-05--33-specialist-agents) · [06 Orchestration](#-06--orchestration--handover) · [07 Progression](#-07--progression-system) · [08 Rhythm](#-08--operating-rhythm) · [09 State](#-09--file-based-state) · [10 Docs](#-10--documentation--quick-start)
+[01 Vision](#-01--the-vision) · [02 Architecture](#-02--architecture) · [03 Pillars](#-03--the-three-daily-pillars) · [04 Domains](#-04--53-learning-domains) · [05 Agents](#-05--34-specialist-agents) · [06 Orchestration](#-06--orchestration--handover) · [07 Progression](#-07--progression-system) · [08 Rhythm](#-08--operating-rhythm) · [09 State](#-09--file-based-state) · [10 Docs](#-10--documentation--quick-start)
 
 </div>
 
@@ -73,7 +73,7 @@ Each domain is a full workspace: **L0→L10 curriculum · 30/60/90 roadmap · se
 | **Expression** (8) | Language · Literature · Drawing · Music · Communication *(speaking/debate/negotiation)* · Behavior & Etiquette · Leadership · Teaching |
 | **Practical** (13) | Technology · Coding · Digital Literacy · Finance · Health Literacy · First Aid · Cooking · Agriculture · Engineering & Making · OSINT *(ethical public-source intel)* · Troubleshooting *(reproduce→isolate→fix)* · Survival · Life Skills |
 
-## 🤖 05 — 33 Specialist Agents
+## 🤖 05 — 34 Specialist Agents
 
 | Function | Count | Agents & capabilities |
 |---|---|---|
@@ -122,7 +122,7 @@ Learner: "I ran 5km today and finished my physics worksheet"
 
 ```
 super-human/
-├── .devin/skills/<33 specialists>/SKILL.md
+├── .devin/skills/<34 specialists>/SKILL.md
 ├── learner/                 # profile · goals · health · schedule ·
 │   │                        # interests · assessments · career-exploration
 │   └── private.md           # gitignored
@@ -133,6 +133,7 @@ super-human/
 ├── achievements/            # badges & level-up records
 ├── projects/                # cross-domain capstones (project-mentor)
 ├── library/                 # curated cross-domain resources
+├── research/                # deep-research prompts & returned .md files
 ├── STATE.md / LOG.md        # live dashboard · append-only log
 ├── docs/                    # 10 foundation documents
 ├── prd.md                   # full product spec
