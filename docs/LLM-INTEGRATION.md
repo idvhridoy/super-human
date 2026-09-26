@@ -44,11 +44,34 @@ Extends the existing wave model (`docs/ORCHESTRATION.md`):
 - **Merge rule:** Lane B never writes state directly to final files — it produces drafts/results that the owning skill reviews and commits. Skill = judgment, API = muscle.
 - **Concurrency caps:** max 5 parallel API calls per skill run; total daily budget cap recorded in STATE.md (cost guardrail).
 
+## Framework research (2026-01 survey)
+
+Full open-source agent-framework scan. Verdict: **don't rebuild the harness — plug in, don't reinvent.**
+
+| Framework | Stars/scale | What it is | Fit for super-human |
+|---|---|---|---|
+| **LiteLLM** | dominant router | Unified OpenAI-format API to 100+ providers + Router (retries, fallbacks, cooldowns, load-balance) + proxy with virtual keys, budgets, cost tracking | ✅ **CHOSEN for Phase 1** — our entire provider matrix (OpenAI/Anthropic/Gemini/Grok/DeepSeek/Groq/Together/Mistral/Cohere/Perplexity) is native; fallback chains + cost tracking are built-in, not hand-rolled |
+| **smolagents** (HuggingFace) | ~5k LOC | Minimal agent lib: CodeAgent/ToolCallingAgent, any LLM via LiteLLM, MCP tools, built-in web search, sandboxed exec | ✅ Optional Lane-B micro-agents (e.g. interest-scout recon) — 10-line agents without a framework tax |
+| **OpenHands** | ~60k | The closest open-source Devin equivalent: autonomous CLI/GUI agent, MCP-first tool dispatch, plan-first loop, any LLM | 🔶 Full harness if a Devin-free runtime is ever needed; heavy (Docker). Not needed while Devin CLI exists |
+| **Goose** | ~38k | Rust-native general-purpose local agent: CLI + desktop + API, MCP extensions, multi-model | 🔶 Lighter alternative to OpenHands for a self-hosted harness |
+| **OpenAI Agents SDK** | large | Provider-agnostic multi-agent: handoffs, guardrails, MCP, voice pipelines — mirrors our skill/handoff design | 🔶 Reference architecture; overkill vs Markdown skills |
+| **CrewAI** | ~22k | Role-based crews — philosophically nearest to our 33-skill roster | ❌ Redundant — our skill system already does role routing; Python-bound state |
+| **LangChain/LangGraph** | ~85k | Maturest ecosystem: graphs, checkpoints, 500+ integrations | ❌ Heavy learning curve; power we don't need for a Markdown OS |
+| **AutoGen** | ~35k | Microsoft multi-agent research framework | ❌ Merged into MS Agent Framework / maintenance mode — skip new builds |
+| **aider / OpenCode / Pi** | 46–172k | Terminal coding agents; OpenCode = 75+ providers + MCP | ❌ Coding-focused; we're a life-orchestration OS, not a coding tool |
+
+### Decision
+
+- **`tools/llm.py` = thin wrapper over LiteLLM Router** — one `completion()` call shape for every provider, `.env` keys auto-detected, fallback chains + budgets + cost logs are framework features (not our code).
+- **Devin stays the harness** — OpenHands/Goose are held in reserve; building a parallel harness duplicates what Devin CLI already provides.
+- **smolagents reserved** for the rare case a Lane-B task needs a mini agent loop (MCP tools) rather than a single call.
+
 ## Implementation phases (todo)
 
 ### Phase 1 — Router foundation (blocking)
-- [ ] `tools/llm.py` — single entrypoint: `--task-class <fast|strong|vision|audio|embed|web> --prompt @file --out <file>`; reads `.env`; provider chain with retries; token/cost log appended to `logs/llm-usage.md` (aggregate numbers only — never prompts containing private data)
-- [ ] `tools/llm.sh` — thin curl fallback for envs without python
+- [ ] `pip install litellm` + `requirements.txt` (pin a version ≥7 days old)
+- [ ] `tools/llm.py` — entrypoint: `--task-class <fast|strong|vision|audio|embed|web> --prompt @file --out <file>`; wraps `litellm.Router` with model-groups per task-class from `.env`-detected keys; appends usage rows (provider, model, tokens, est. cost — never prompts containing private data) to `logs/llm-usage.md`
+- [ ] `tools/llm-config.yaml` — task-class → ordered model list + fallback chains + per-class token caps
 - [ ] Failure taxonomy: `devin_limit`, `api_error`, `no_key`, `budget_cap` → each has a defined next step
 - [ ] Test: one real call per configured provider; results logged in `logs/llm-usage.md`
 
