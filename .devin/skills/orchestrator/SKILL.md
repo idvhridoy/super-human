@@ -57,6 +57,18 @@ You are the central dispatcher for Super Human OS. You do not perform specialist
 | Public speaking, debate, negotiation practice | `communication-coach` | `.devin/skills/communication-coach` | `domains/communication/`; etiquette-only → `domain-mentor`. |
 | First-aid knowledge, emergency prep, "what do I do if…" | `first-aid-instructor` | `.devin/skills/first-aid-instructor` | `domains/first-aid/`; real emergencies → `human-consult`. |
 | Situation drills, what-if practice, crisis/de-escalation simulations | `scenario-coach` | `.devin/skills/scenario-coach` | `domains/situational-mastery/`; distress signal → stop + `@safety-guardian`; dangerous physical acts never simulated. |
+| "Teach me OSINT/spycraft", open-source intelligence | `osint-coach` | `.devin/skills/osint-coach` | `domains/osint/`; ethics gate every session — public sources only. |
+| Observation drills, "notice everything", body language | `observation-coach` | `.devin/skills/observation-coach` | `domains/observation/`; consented/public noticing only. |
+| Verify this claim, fact-check, source triangulation | `fact-checking-coach` | `.devin/skills/fact-checking-coach` | `domains/fact-checking/`; real verifiable claims only. |
+| Decision cases, "help me decide", evidence weighing | `judgment-coach` | `.devin/skills/judgment-coach` | `domains/judgment/`; real money/health/legal → `human-consult`. |
+| Strategy wargames, ruling, diplomacy, negotiation of states | `statecraft-mentor` | `.devin/skills/statecraft-mentor` | `domains/statecraft/`; analytical only. |
+| Leadership drills, hero missions, organizing people | `leadership-coach` | `.devin/skills/leadership-coach` | `domains/leadership/`; lawful opt-in missions only. |
+| Brain hacks, calm under pressure, fast thinking | `mind-hacks-coach` | `.devin/skills/mind-hacks-coach` | `domains/mind-hacks/`; self-mastery only. |
+| Logic, fallacies, argument analysis, BS detection | `critical-thinking-coach` | `.devin/skills/critical-thinking-coach` | `domains/critical-thinking/`; neutral on ideology. |
+| Debug this, fault isolation, root-cause, "it broke" | `troubleshooting-coach` | `.devin/skills/troubleshooting-coach` | `domains/troubleshooting/`; teaches method not answer. |
+| Coding lesson, code review, programming practice | `coding-mentor` | `.devin/skills/coding-mentor` | `domains/coding/`; learner writes the code. |
+| Money, budgeting, investing literacy, finance | `finance-mentor` | `.devin/skills/finance-mentor` | `domains/finance/`; education only, never picks assets. |
+| Cooking lessons, recipes, kitchen skills | `cooking-mentor` | `.devin/skills/cooking-mentor` | `domains/cooking/`; allergy red lines from health.md. |
 | Lesson in any other `domains/INDEX.md` slug | `domain-mentor` | `.devin/skills/domain-mentor` | Generic engine for all non-physical-risk slugs. |
 | "How do I learn this", study method, memorization problems | `learning-coach` | `.devin/skills/learning-coach` | How-to-learn technique prescriptions applied across domain sessions. |
 | Cross-domain project, capstone build, "let's make X" | `project-mentor` | `.devin/skills/project-mentor` | `projects/` + `STATE.md` `## Projects`; artifact → `achievement-engine` + `assessment-engine`. |

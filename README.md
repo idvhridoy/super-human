@@ -8,7 +8,7 @@
 
 ### An autonomous AI staff of world-class mentors — for one human
 
-[![Specialists](https://img.shields.io/badge/specialist_agents-34-brightgreen?style=flat-square)](#-05--34-specialist-agents)
+[![Specialists](https://img.shields.io/badge/specialist_agents-46-brightgreen?style=flat-square)](#-05--46-specialist-agents)
 [![Domains](https://img.shields.io/badge/learning_domains-53%2B-blueviolet?style=flat-square)](#-04--53-learning-domains)
 [![Pillars](https://img.shields.io/badge/daily_pillars-3-orange?style=flat-square)](#-03--the-three-daily-pillars)
 [![Levels](https://img.shields.io/badge/progression-L0→L10-9cf?style=flat-square)](#-07--progression-system)
@@ -20,9 +20,9 @@
 [![GitHub forks](https://img.shields.io/github/forks/idvhridoy/super-human?style=flat-square)](https://github.com/idvhridoy/super-human/network/members)
 [![Last Commit](https://img.shields.io/github/last-commit/idvhridoy/super-human?style=flat-square)](https://github.com/idvhridoy/super-human/commits/main)
 
-**34 specialist agents · 3 daily pillars · 53 learning domains · 24/7 file-based memory · L0→L10 progression**
+**46 specialist agents · 3 daily pillars · 53 learning domains · 24/7 file-based memory · L0→L10 progression**
 
-[01 Vision](#-01--the-vision) · [02 Architecture](#-02--architecture) · [03 Pillars](#-03--the-three-daily-pillars) · [04 Domains](#-04--53-learning-domains) · [05 Agents](#-05--34-specialist-agents) · [06 Orchestration](#-06--orchestration--handover) · [07 Progression](#-07--progression-system) · [08 Rhythm](#-08--operating-rhythm) · [09 State](#-09--file-based-state) · [10 Docs](#-10--documentation--quick-start)
+[01 Vision](#-01--the-vision) · [02 Architecture](#-02--architecture) · [03 Pillars](#-03--the-three-daily-pillars) · [04 Domains](#-04--53-learning-domains) · [05 Agents](#-05--46-specialist-agents) · [06 Orchestration](#-06--orchestration--handover) · [07 Progression](#-07--progression-system) · [08 Rhythm](#-08--operating-rhythm) · [09 State](#-09--file-based-state) · [10 Docs](#-10--documentation--quick-start)
 
 </div>
 
@@ -73,13 +73,13 @@ Each domain is a full workspace: **L0→L10 curriculum · 30/60/90 roadmap · se
 | **Expression** (8) | Language · Literature · Drawing · Music · Communication *(speaking/debate/negotiation)* · Behavior & Etiquette · Leadership · Teaching |
 | **Practical** (13) | Technology · Coding · Digital Literacy · Finance · Health Literacy · First Aid · Cooking · Agriculture · Engineering & Making · OSINT *(ethical public-source intel)* · Troubleshooting *(reproduce→isolate→fix)* · Survival · Life Skills |
 
-## 🤖 05 — 34 Specialist Agents
+## 🤖 05 — 46 Specialist Agents
 
 | Function | Count | Agents & capabilities |
 |---|---|---|
 | **Orchestration** | 5 | `orchestrator` master router · `learner-profile` onboarding · `daily-routine` morning plans · `checklist-review` evening audits · `weekly-review` Friday retros |
 | **Pillars** | 5 | `nutritionist` · `sleep-coach` · `sleep-guardian` · `training-coordinator` · `safety-guardian` (veto power) |
-| **Coaches & mentors** | 11 | `run-coach` · `swim-coach` · `strength-coach` · `kungfu-coach` · `driving-mentor` · `first-aid-instructor` · `communication-coach` · `mindfulness-coach` · `scenario-coach` · `domain-mentor` engine (teaches any domain) · `project-mentor` (cross-domain capstones) |
+| **Coaches & mentors** | 11 | `run-coach` · `swim-coach` · `strength-coach` · `kungfu-coach` · `driving-mentor` · `first-aid-instructor` · `communication-coach` · `mindfulness-coach` · `scenario-coach` · `domain-mentor` engine (teaches any domain) · `project-mentor` (cross-domain capstones) · dedicated tracks: spy `observation-coach`/`osint-coach`/`fact-checking-coach` · ruler `judgment-coach`/`statecraft-mentor`/`leadership-coach` · mind `mind-hacks-coach`/`critical-thinking-coach`/`troubleshooting-coach` · practical `coding-mentor`/`finance-mentor`/`cooking-mentor` |
 | **Mind & growth** | 3 | `mindset-coach` habits/discipline · `learning-coach` meta-learning (Feynman, spaced repetition) · `career-mentor` profession paths |
 | **Intelligence** | 7 | `assessment-engine` levels · `achievement-engine` badges · `progress-report` KPIs · `interest-scout` · `roadmap-planner` · `strategy-advisor` · `knowledge-librarian` |
 | **Operations** | 2 | `activity-log` · `schedule-manager` |
@@ -122,7 +122,7 @@ Learner: "I ran 5km today and finished my physics worksheet"
 
 ```
 super-human/
-├── .devin/skills/<34 specialists>/SKILL.md
+├── .devin/skills/<46 specialists>/SKILL.md
 ├── learner/                 # profile · goals · health · schedule ·
 │   │                        # interests · assessments · career-exploration
 │   └── private.md           # gitignored

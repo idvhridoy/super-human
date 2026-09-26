@@ -52,6 +52,10 @@ Intent → owning skill → primary write targets. When in doubt: `@orchestrator
 | Meditation practice, mindfulness session, in-the-moment stress | `mindfulness-coach` | `domains/mindfulness/` |
 | Public speaking, debate, negotiation practice | `communication-coach` | `domains/communication/` |
 | First-aid knowledge, emergency prep, drill checklists | `first-aid-instructor` | `domains/first-aid/` (incl. `emergency-card.md`) |
+| Spy track: observation · osint · fact-checking | `observation-coach` · `osint-coach` · `fact-checking-coach` | `domains/<slug>/` each |
+| Ruler track: judgment · statecraft · leadership | `judgment-coach` · `statecraft-mentor` · `leadership-coach` | `domains/<slug>/` each |
+| Mind track: mind-hacks · critical-thinking · troubleshooting | `mind-hacks-coach` · `critical-thinking-coach` · `troubleshooting-coach` | `domains/<slug>/` each |
+| Practical track: coding · finance · cooking | `coding-mentor` · `finance-mentor` · `cooking-mentor` | `domains/<slug>/` each |
 | Lesson in any non-physical domain (language, physics, law, …) | `domain-mentor` | `domains/<slug>/*` for its slug |
 | "How do I learn this", study method, memorization problems | `learning-coach` | `learner/learning-strategies.md`, `domains/<slug>/playbook.md` method appends (merge) |
 | Cross-domain project, capstone build, "let's make X" | `project-mentor` | `projects/<slug>.md`, `STATE.md` `## Projects` section |

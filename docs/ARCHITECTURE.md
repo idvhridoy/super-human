@@ -133,6 +133,10 @@ Domain ownership is by slug routing, not by file — one skill owns all seven fi
 | `kung-fu` | `kungfu-coach` |
 | `driving` | `driving-mentor` (theory-only until age gate clears) |
 | `mobility` | `training-coordinator` |
+| `observation`, `osint`, `fact-checking` | `observation-coach` · `osint-coach` · `fact-checking-coach` (spy track) |
+| `judgment`, `statecraft`, `leadership` | `judgment-coach` · `statecraft-mentor` · `leadership-coach` (ruler track) |
+| `mind-hacks`, `critical-thinking`, `troubleshooting` | `mind-hacks-coach` · `critical-thinking-coach` · `troubleshooting-coach` (mind track) |
+| `coding`, `finance`, `cooking` | `coding-mentor` · `finance-mentor` · `cooking-mentor` (practical track) |
 | all other slugs (`language`, `physics`, `literature`, …) | `domain-mentor` |
 
 Within an owned slug: owner writes `curriculum.md`, `roadmap.md`, `sessions.md`, `progress.md`, `metrics.md`, `playbook.md`, `resources.md`. Merge writers: `assessment-engine` → `progress.md` level line + `metrics.md` scores; `activity-log` → `sessions.md` append; `knowledge-librarian` → `resources.md` append; `roadmap-planner` → `roadmap.md` (merge step). Two merge writers never run in the same wave against the same file.
