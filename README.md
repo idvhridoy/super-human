@@ -15,7 +15,7 @@
 [![State](https://img.shields.io/badge/state-100%25%20markdown-ff6600?style=flat-square)](#-09--file-based-state)
 [![Runtime](https://img.shields.io/badge/runtime-Devin%20CLI-black?style=flat-square)](https://devin.ai)
 [![Cadence](https://img.shields.io/badge/cadence-7--day%20sprints-blueviolet?style=flat-square)](#-08--operating-rhythm)
-[![Docs](https://img.shields.io/badge/docs-9-blue?style=flat-square)](#-10--documentation--quick-start)
+[![Docs](https://img.shields.io/badge/docs-10-blue?style=flat-square)](#-10--documentation--quick-start)
 [![GitHub stars](https://img.shields.io/github/stars/idvhridoy/super-human?style=flat-square)](https://github.com/idvhridoy/super-human/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/idvhridoy/super-human?style=flat-square)](https://github.com/idvhridoy/super-human/network/members)
 [![Last Commit](https://img.shields.io/github/last-commit/idvhridoy/super-human?style=flat-square)](https://github.com/idvhridoy/super-human/commits/main)
@@ -134,7 +134,7 @@ super-human/
 ├── projects/                # cross-domain capstones (project-mentor)
 ├── library/                 # curated cross-domain resources
 ├── STATE.md / LOG.md        # live dashboard · append-only log
-├── docs/                    # 9 foundation documents
+├── docs/                    # 10 foundation documents
 ├── prd.md                   # full product spec
 └── AGENTS.md                # the agent contract
 ```
@@ -143,7 +143,7 @@ super-human/
 
 ## 📖 10 — Documentation & Quick Start
 
-**Docs:** `prd.md` · `AGENTS.md` · `docs/ARCHITECTURE.md` · `docs/SECURITY.md` · `docs/ORCHESTRATION.md` · `docs/MASTER-ROADMAP.md` · `docs/HANDOFF.md` · `docs/AUTOMATION.md` · `docs/KPI.md` · `docs/REFERENCES.md` · `docs/LLM-PROVIDERS.md`
+**Docs:** `prd.md` · `AGENTS.md` · `docs/ARCHITECTURE.md` · `docs/SECURITY.md` · `docs/ORCHESTRATION.md` · `docs/MASTER-ROADMAP.md` · `docs/HANDOFF.md` · `docs/AUTOMATION.md` · `docs/KPI.md` · `docs/REFERENCES.md` · `docs/LLM-PROVIDERS.md` · `docs/LLM-INTEGRATION.md`
 
 **Quick start:**
 
