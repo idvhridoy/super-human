@@ -95,6 +95,12 @@ Body sections (in this order): `# <Title> Skill` heading · role paragraph · `#
 - **Continuous:** `/activity-log` records anything the learner narrates; `/achievement-engine` issues badges/level-ups.
 - **Sleep:** `/sleep-guardian` before bed and on wake — night watch entries in `pillars/sleep/night-log.md`.
 
+## LLM / API Usage
+- Supporting LLM keys live in `.env` (gitignored): `OPENAI_API_KEY`, `ANTHROPIC_API_KEY`, `GEMINI_API_KEY`, `GROK_API_KEY`, `JEV_API_KEY`, `DEEPSEEK_API_KEY`, plus aggregators (`OPENROUTER_API_KEY`, `GROQ_API_KEY`, `TOGETHER_API_KEY`, `MISTRAL_API_KEY`, `COHERE_API_KEY`, `PERPLEXITY_API_KEY`). `.env.example` is the committed template.
+- Model policy: cheapest capable model for classification/logging (`gpt-4o-mini`, `claude-3-haiku`, `gemini-1.5-flash`); stronger models for learner-facing curricula and long-horizon strategy. Full tier table: `docs/LLM-PROVIDERS.md`.
+- Missing key is not an error — fall back to the skill's default model; if a call is required, emit `## NEXT: human-consult`.
+- Never log, print, or commit keys. Paid-tool/subscription decisions go to the `[HUMAN]` queue.
+
 ## Model Overrides
 Default Devin CLI skill model is `swe` or `sonnet`. Use stronger models for learner-facing curricula and long-horizon strategy only. Note: `swe-2-max` is not a valid flag; use the strongest available model string per `devin models`.
 
